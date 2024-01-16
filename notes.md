@@ -1,0 +1,1 @@
+{ "extends": ["stylelint-config-html/html", "stylelint-config-html/astro"] }

@@ -1,0 +1,65 @@
+{
+    "name": "astro_blog-w-tags",
+    "version": "0.0.2",
+    "type": "module",
+    "author": "Mike Connor",
+    "scripts": {
+        "dev": "astro dev",
+        "start": "astro dev",
+        "build": "astro check && astro build",
+        "devbuild": "astro check && astro build development",
+        "preview": "astro preview",
+        "astro": "astro",
+        "info": "prettier.getSupportInfo()",
+        "format": "prettier --write . --plugin=prettier-plugin-astro",
+        "lint": "eslint  \"src/**/*.{js,ts,jsx,tsx,astro}\"",
+        "stylelint": "stylelint \"src/**/*.{css,astro}\"",
+        "check": "astro check",
+        "hello": "node --version"
+    },
+    "dependencies": {
+        "@astrojs/check": "^0.4.1",
+        "@astrojs/mdx": "^2.0.4",
+        "@astrojs/rss": "^4.0.2",
+        "@astrojs/vercel": "^6.1.4",
+<<<<<<< HEAD
+        "astro": "^4.1.3",
+=======
+        "astro": "^4.1.2",
+>>>>>>> working1
+        "date-fns": "^3.2.0",
+        "open-props": "^1.6.17",
+        "sharp": "^0.33.2",
+        "typescript": "^5.3.3"
+    },
+    "devDependencies": {
+<<<<<<< HEAD
+        "@typescript-eslint/parser": "^6.19.0",
+        "autoprefixer": "^10.4.16",
+        "eslint": "^8.56.0",
+        "eslint-plugin-astro": "^0.31.3",
+=======
+        "@typescript-eslint/parser": "^6.18.1",
+        "autoprefixer": "^10.4.16",
+        "eslint": "^8.56.0",
+        "eslint-plugin-astro": "^0.31.0",
+>>>>>>> working1
+        "eslint-plugin-jsx-a11y": "^6.8.0",
+        "postcss-html": "^1.6.0",
+        "postcss-jit-props": "^1.0.14",
+        "postcss-preset-env": "^9.3.0",
+        "prettier": "^3.2.2",
+        "prettier-plugin-astro": "^0.12.3",
+        "stylelint": "^16.1.0",
+        "stylelint-config-html": "^1.1.0",
+        "stylelint-prettier": "^5.0.0"
+    },
+<<<<<<< HEAD
+=======
+    "packageManager": "pnpm@8.13.1",
+>>>>>>> working1
+    "engines": {
+        "node": ">=18.0.0 <19.0.0",
+        "pnpm": ">=8"
+    }
+}
